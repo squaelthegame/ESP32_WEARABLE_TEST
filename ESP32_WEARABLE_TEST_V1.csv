@@ -1,0 +1,6 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"A1","1","Arduino_Nano_ESP32","","","","Module:Arduino_Nano","https://docs.arduino.cc/resources/datasheets/ABX00083-datasheet.pdf"
+"J1,J3","2","Conn_01x03","","","","Connector:FanPinHeader_1x03_P2.54mm_Vertical",""
+"J2","1","Conn_01x04","","","","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"J4","1","Conn_01x02","","","","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
+"SW1","1","SW_Push","","","","Button_Switch_THT:SW_PUSH_6mm",""

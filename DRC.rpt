@@ -1,0 +1,82 @@
+** Drc report for ESP32_WEARABLE_TEST_V1.kicad_pcb **
+** Created on 2026-05-22T22:40:38 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 16 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: configuration des contraintes des zones d'occupation; error
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(146.0500 mm, 69.2150 mm): Pad métallisé 1 [GND] de J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(146.0500 mm, 71.7550 mm): Pad métallisé 2 [Net-(A1-3V3)] de J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(146.0500 mm, 74.2950 mm): Pad métallisé 3 [Net-(A1-SDA/A4)] de J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(146.0500 mm, 76.8350 mm): Pad métallisé 4 [Net-(A1-SCL/A5)] de J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(146.0500 mm, 69.2150 mm): Pad métallisé 1 [GND] de J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(146.0500 mm, 71.7550 mm): Pad métallisé 2 [Net-(A1-3V3)] de J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(146.0500 mm, 74.2950 mm): Pad métallisé 3 [Net-(A1-SDA/A4)] de J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(146.0500 mm, 76.8350 mm): Pad métallisé 4 [Net-(A1-SCL/A5)] de J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[invalid_outline]: Le C.I. a un contour mal formé (Le segment a une longueur nulle ou très petite : 0 nm)
+    Local override; error
+    @(96.5200 mm, 63.5013 mm): Segment sur Edge.Cuts
+    @(96.5200 mm, 63.5013 mm): Segment sur Edge.Cuts
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(132.7150 mm, 85.0900 mm): Piste [Net-(A1-3V3)] sur F.Cu, long. 0.9254 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(100.3300 mm, 118.7450 mm): Piste [Net-(A1-3V3)] sur F.Cu, long. 17.9605 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(100.3300 mm, 116.2050 mm): Piste [+3.3V] sur F.Cu, long. 0.6350 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(116.3944 mm, 87.4600 mm): Piste [Net-(A1-D8)] sur F.Cu, long. 0.5713 mm
+[lib_footprint_mismatch]: L’empreinte 'PinHeader_1x04_P2.54mm_Vertical' ne correspond pas à la copie en librairie 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[lib_footprint_mismatch]: L’empreinte 'PinHeader_1x04_P2.54mm_Vertical' ne correspond pas à la copie en librairie 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+
+** Found 0 unconnected pads **
+
+** Found 2 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+    @(146.0500 mm, 69.2150 mm): Empreinte J2
+[missing_footprint]: Empreinte manquante J3 (Conn_01x03)
+    Local override; warning
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

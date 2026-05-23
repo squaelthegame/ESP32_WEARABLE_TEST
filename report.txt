@@ -1,0 +1,9 @@
+Info: Traitement du symbole "A1:Module:Arduino_Nano".
+Info: Traitement du symbole "J1:Connector:FanPinHeader_1x03_P2.54mm_Vertical".
+Info: Traitement du symbole "J2:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical".
+Info: Traitement du symbole "J3:Connector:FanPinHeader_1x03_P2.54mm_Vertical".
+Info: Traitement du symbole "J4:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical".
+Info: Traitement du symbole "SW1:Button_Switch_THT:SW_PUSH_6mm".
+
+
+Info: Total warnings: 0, erreurs: 0.
